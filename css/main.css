@@ -1,0 +1,81 @@
+*{
+	outline: 1px solid red;
+}
+
+/*TERMINA ESTILOS GNEALE*/
+header{
+	background-image: url(../img/background/hero.jpg);
+	background-size: cover;
+	height: auto;
+
+	color: #fff;
+}
+.oscuro{
+	background:rgba(0,0,0,0.5);
+	height: auto;
+	color: white;
+}
+.menu-list li{
+	margin:20px;
+}
+.menu-list a{
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+.menu-list a:hover{
+	color: #1EE1CD;
+}
+.primes i{
+	font-size: 35px;
+}
+.primes h1{
+	display: inline-block;
+}
+.hero h1{
+	font-size: 50px;
+	margin-top: 150px;
+	margin-bottom: 40px;
+}
+.hero button{
+	background: rgba(255,255,255,0.2);
+	border: gray;
+	padding: 15px;
+	margin:40px 20px 220px;
+	font-size: 18px;
+
+}
+.hero button:hover{
+	background: #434141;
+}
+/*TERMINA HEADER*/
+.features{
+
+}
+.more-features{
+
+}
+.descripcion-features{
+
+}
+.portafolio{
+
+}
+
+
+.prueba{
+	background-image: url(../img/background/hero.jpg);
+	background-size: cover;
+	height: 500px;
+	width: 500px;
+	opacity: 0.5;
+
+}
+
+
+
+
+.prueba p{
+	color: white;
+
+}
