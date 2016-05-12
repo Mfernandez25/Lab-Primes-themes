@@ -1,5 +1,6 @@
-*{
-	outline: 1px solid red;
+/**{outline: 1px solid red;}*/
+body{
+	font-size:  "Helbetica Neue" Sans-Serif;
 }
 
 /*TERMINA ESTILOS GNEALE*/
@@ -7,24 +8,24 @@ header{
 	background-image: url(../img/background/hero.jpg);
 	background-size: cover;
 	height: auto;
-
-	color: #fff;
 }
 .oscuro{
 	background:rgba(0,0,0,0.5);
 	height: auto;
 	color: white;
 }
+
 .menu-list li{
-	margin:20px;
+	margin:20px 5px;
 }
 .menu-list a{
 	color: #fff;
 	display: block;
 	text-decoration: none;
+	font-weight: bold;
 }
 .menu-list a:hover{
-	color: #1EE1CD;
+	color: #079ea7;
 }
 .primes i{
 	font-size: 35px;
@@ -50,35 +51,167 @@ header{
 }
 /*TERMINA HEADER*/
 .features{
-
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+.features-caja{
+	margin: auto auto 50px;
+	width: 95%; 
+}
+.features i{
+	font-size: 45px;
+	color: #079ea7;
+	margin-top: 30px;
 }
 .more-features{
-
+	background-color: #EEECEC;
+	padding-top:20px;
+}
+.more-features img{
+	width: 80%;
 }
 .descripcion-features{
-
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.descripcion-features i{
+	font-size: 30px;
+	color: #079ea7;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.descripcion-features .caja{
+	margin-left: 45px;
+    margin-top: -45px;
 }
 .portafolio{
-
+	background-color: #EEECEC;
+}
+.portafolio-contenido h2{
+	margin-bottom: 20px;
+}
+.portafolio-menu{
+	margin: 20px auto;
+	
+}
+.portafolio-menu li{
+	background: #fff;
+	padding: 5px 10px;
+	font-weight: bold;
+}
+.portafolio-menu li:hover{
+	background: #079ea7;
+	color: #fff;
+}
+.portafolio-imagenes img{
+	width: 95%;
+	margin-top: 10px;
+}
+.portafolio-caja{
+	background: #fff;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+.portafolio .boton a{
+	background: gray;
+	text-decoration: none;
+	color: #C5C3C3;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 
-.prueba{
-	background-image: url(../img/background/hero.jpg);
-	background-size: cover;
-	height: 500px;
-	width: 500px;
-	opacity: 0.5;
+
+/*MEDIA ESTILOS*/
+@media(max-width: 750px){
+	header, .oscuro{
+	height: 100vh;
+}
+	.menu-list li{
+	margin:10px 0px;
+	padding: 2px;
+}	
+	.menu-list li a{
+	font-size: 12px;
+}	
+	.hero h1{
+	font-size: 35px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+	.hero button{
+		margin:40px 10px 0px;
+		font-size: 15px;
+		padding: 10px;
+}
+	.features{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+	.features-caja{
+	margin: auto auto 35px;
 
 }
-
-
-
-
-.prueba p{
-	color: white;
-
+	.features-caja i{
+	font-size: 30px;
+}
+	.features-caja h4{
+	font-size: 14px;
+	margin-top: 0; 
+}
+	.features-caja p{
+	font-size: 10px;
+}
+	.more-features{
+	padding-top:0px;
+	padding-bottom: 10px;
 }
 
-/*AQUI TERMINA MI PARTE*/
-/*NO MODIFIQUES NADA JAJAJJAJAJAJAJAJJAAJJ*/
+	.descripcion-features i{
+	font-size: 25px;
+	margin-top: 15px;
+}
+
+	.descripcion-features .caja{
+    margin-top: -35px;
+}
+
+	.descripcion-features .caja h4{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1px;
+}
+
+	.descripcion-features .caja p{
+	font-size: 10px;
+}
+
+	.portafolio-contenido p{
+	font-size: 12px;
+}
+
+	.portafolio-menu li{
+	padding: 5px 4px;
+	font-size: 11px;
+}
+	.portafolio-menu{
+	margin: 10px auto;
+}
+	.portafolio-caja{
+	background: #fff;
+	padding-bottom: 2px;
+	margin-bottom: 10px;
+	
+}
+	.portafolio-caja h4{
+	font-size: 12px;
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+	.portafolio-caja p {
+	font-size: 11px;
+	margin: 0;
+}
+}
+
