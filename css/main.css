@@ -1,6 +1,6 @@
 /**{outline: 1px solid red;}*/
 body{
-	font-size:  "Helbetica Neue" Sans-Serif;
+	color: #303040;
 }
 
 /*TERMINA ESTILOS GNEALE*/
@@ -120,9 +120,192 @@ header{
 	margin-bottom: 30px;
 	margin-top: 30px;
 }
+/*2da parte*/
+/*utiles*/
+.text-white{ color: white; }
+.text-plomo{ color: #EEECEC; }
+.text-gray{ color: 	#303040; }
+.bg-white{ background-color:  white; }
+.bg-plomo{ background-color: #EEECEC; }
+.bg-gray{ background-color: #303040; }
+.pad{ padding: 20px; }
+.pad-10{ padding: 30px 20px; }
+.pad-b{ padding-bottom: 20px; }
+.pad-t{ padding-top: 20px; }
+.bg-negrito{ background-color: #000; }
+.mg-20{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+/*utiles*/
 
+.bg-city{
+	background-image: url("../img/background/city.jpg") ;
+	background-size: cover;
+	background-position: 10px -50px;
+	height: 400px;
+	text-align: center;
+}
+.bg-negro{
+	background-color: rgba(0,0,0,.5);
+	height: 400px;
+}
+.bg-city p{
+	margin: 100px 200px 50px 200px;
+	font-size: 20px;
+	padding: 15px 50px 10px 50px;
+	/*background-repeat: no-repeat;*/
+}
+.bg-city button{
+	background: rgba(255,255,255,0.2);
+	border: gray;
+	padding: 15px;
+	margin:40px 20px 220px;
+	font-size: 18px;
+}
+.margen{
+	margin-top: 20px;
+}
 
+.hover:hover{
+	background-color: #1EE1CD;
+}
+.marg{
+	margin: 0;
+}
+.lista{
+	list-style-type: none;
+	display: block;	
+	padding: 25px;
+}
+.lista li{
+	padding: 10px;
+	border-bottom: 1px solid #EEECEC;
+}
+span{
+	font-size: 30px;
+}
+.btn{
+	border-radius: 0px;
+	padding: 5px;
+	font-weight: bold;
+	color: #EEECEC;
+}
+.conten{
+	margin: 20px 100px;
+	padding: 30px 40px;
+}
+.conten img{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+.contenedornegro{
+	background-color: rgba(0,0,0,0.6);
+	height: 700px;
+}
+.bg-contacto{
+	background-image: url("../img/background/contactus.jpg") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-position: 10px -50px;*/
+	text-align: center;
+	height: 700px;
+}
 
+.contacto li{
+	text-align: left;
+	font-size: 18px;
+	display: block;
+}
+.contacto input,textarea{
+	background-color:rgba(255,255,255,0.3);
+	border: none;
+	margin: 15px;
+	padding: 10px;
+	margin-left: 0;
+	width: 500px;
+}
+.contacto textarea{
+	height: 200px;
+}
+.botonsumit{
+	background-color: #1EE1CD;
+	border: none;
+	padding: 15px 40px;
+}
+.follow i{
+	font-size: 35px;
+	margin: 5px;
+	margin-top: 20px;
+}
+.follow {
+	padding: 60px 150px;
+}
+/*media estilos parte 2*/
+@media(max-width: 750px){
+	.bg-city p{
+	margin: 80px 0px 0px 0px;
+	padding: 0;
+	font-size: 16px;
+}
+.bg-city{
+	height: 300px;
+	background-position: center;
+}	
+.bg-negro{
+	height: 300px;
+}
+.bg-city button{
+	margin:40px 20px 220px;
+	font-size: 12px;
+}
+.caja-choose{
+	margin: 10px;
+}
+.conten{
+	margin: 5px 20px;
+	padding: 15px 40px;
+	font-size: 16px;
+}.bg-contacto{
+	
+	/*background-repeat: no-repeat;*/
+	/*background-position: 10px -50px;*/
+	text-align: center;
+	height: 100%;
+}
+.contenedornegro{
+	background-color: rgba(0,0,0,0.6);
+	height: 100%;
+}
+.contacto input,textarea{
+	width: 350px;
+	padding: 5px;
+	margin-bottom: 0;
+	font-size: 14px;
+
+}
+.contacto textarea{
+	height: 100px;
+	margin-bottom: 10px;
+}
+.contacto ul{
+	padding-left: 0;
+}
+.contacto button{
+	margin-bottom: 50px;
+}
+.abaut{
+	padding-bottom: 80px;
+}
+.abaut h4{
+	margin-bottom: 30px;
+}
+.follow{
+	padding: 45px;
+}
 /*MEDIA ESTILOS*/
 @media(max-width: 750px){
 	header, .oscuro{
